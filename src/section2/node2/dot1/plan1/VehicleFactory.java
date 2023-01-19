@@ -4,7 +4,7 @@ package section2.node2.dot1.plan1;
  * 静态工厂模式示例
  * 通过VehicleType判断类型，再分别创建并返回对应的示例
  * 该类只负责Vehicle对象的实例化，符合单一职责原则
- * 但是要想新增一个Vehicle的子类时，需要对其进行修改，打破了开闭原则。
+ * 但是要想新增一个Vehicle的子类时，需要对其进行修改，违反了开闭原则。
  */
 public class VehicleFactory {
 
